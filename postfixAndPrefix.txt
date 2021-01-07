@@ -1,0 +1,25 @@
+postfix operator:
+
+    A postfix operator is a unary operator which works only on single operand to increment or decrement value of an operand.
+    
+    It does the operation only when the statement gets terminated.
+    
+    For example, 
+        k = i++     // Directly assigns i value to k and after assignment i is incremented.
+        y = x++ * 10    // the current value of x is multiplied with 10 and after assignment x is incremented.
+        q = p-- / 3     // the current value of p is divided by 3 and after assignment p is decremented.
+
+
+
+
+Prefix operator:
+
+    A prefix operator is a unary operator which is similar to postfix in use but it does the increment/decrement operation first.
+    
+    It does the operation before the value of operand is used in an expression.
+
+    For example,
+        k = ++i;    // i is incremented and assigned
+        y = ++x * 10    // x is incremented and that value is multiplied with 10 and assigned
+        q = --p / 3     // p is decremented and that value is divided by 3 and assigned.
+
