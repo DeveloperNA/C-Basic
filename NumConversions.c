@@ -96,9 +96,6 @@ int main()
     printf("Enter the number");
     scanf("%d", &number);
 
-    // printf("Enter the position to set bit");
-    // scanf("%d",&pos);
-
     bin = decimalToBinary(number);
     oct = decimalToOctal(number);
     hex = decimalToHexa(number);
